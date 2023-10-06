@@ -106,4 +106,4 @@ Equivalente a 2 ENTER en Markdown= <br> (espacio entre parrafos).
  - *Etiquetas de linea*:
    * Enlaces, estilos, imagen...
 
-Ejemplos Teoria HTML en archivo "Teoria6/10/23": [Esto es un enlace](http://joan23.fje.edu "Enlace a la web del cole")
+Ejemplos Teoria HTML en archivo "Teoria6/10/23": [Enlace a la teoria del 6/10/23](https://github.com/OscarLopez25032004/ASIX_M4_UF1_A3_Documentaci-n_-scarL-pez/blob/main/Teoria6-10-23.html "Enlace a la teoria del 6/10/23")
