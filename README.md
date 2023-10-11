@@ -53,8 +53,6 @@ Como poner enlaces, con descripción.
 [Esto es un enlace](http://joan23.fje.edu "Enlace a la web del cole")
 
 Además de ver como poner imagenes con sus descripciones.
-![Esto es una imagen del Conde y de José Mourinho](https://github.com/OscarLopez25032004/ASIX1M4UF1-A3Apuntes/blob/main/06%20(1).jpg "Titulo opcional de la imagen")
-
 ![Esto es una imagen del Conde y de José Mourinho](https://github.com/OscarLopez25032004/ASIX1M4UF1-A3Apuntes/blob/main/image.png "Titulo opcional de la imagen")
 
 Por último, hemos visto como hacer tablas, haciendo el encabezado y como se alinea el texto inferior (Según la disposición de los guiones).
@@ -107,3 +105,16 @@ Equivalente a 2 ENTER en Markdown= <br> (espacio entre parrafos).
    * Enlaces, estilos, imagen...
 
 Ejemplos Teoria HTML en archivo "Teoria6/10/23": [Enlace a la teoria del 6/10/23](https://github.com/OscarLopez25032004/ASIX_M4_UF1_A3_Documentaci-n_-scarL-pez/blob/main/Teoria6-10-23.html "Enlace a la teoria del 6/10/23")
+
+**Etiqueta ol**
+Creación de listas ordenadas.
+Cada elemento de la lista empieza con la etiqueta <li>.
+**Etiqueta ul**
+Creación de listas desordenadas.
+Cada elemento de la lista empieza con la etiqueta <li>.
+**Etiqueta br**
+Salto de linea.
+Se cierra en la misma etiqueta.
+**Etiqueta a**
+Insertar un enlace.
+Seguido de href (Para poner la ruta).
