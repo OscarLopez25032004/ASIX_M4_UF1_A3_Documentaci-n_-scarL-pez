@@ -109,12 +109,30 @@ Ejemplos Teoria HTML en archivo "Teoria6/10/23": [Enlace a la teoria del 6/10/23
 **Etiqueta ol**
 Creación de listas ordenadas.
 Cada elemento de la lista empieza con la etiqueta <li>.
+
+
 **Etiqueta ul**
 Creación de listas desordenadas.
 Cada elemento de la lista empieza con la etiqueta <li>.
+
+
 **Etiqueta br**
 Salto de linea.
 Se cierra en la misma etiqueta.
+
+
 **Etiqueta a**
 Insertar un enlace.
 Seguido de href (Para poner la ruta).
+
+
+**Comentar SIEMPRE**
+```
+<!-- -->
+```
+ para poner comentarios.
+
+
+**Etiqueta img**
+Insertar una imagen.
+Seguido de src (Para poner la ruta).
