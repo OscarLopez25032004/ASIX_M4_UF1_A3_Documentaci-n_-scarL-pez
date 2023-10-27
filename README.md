@@ -136,3 +136,14 @@ Seguido de href (Para poner la ruta).
 **Etiqueta img**
 Insertar una imagen.
 Seguido de src (Para poner la ruta).
+
+**Etiqueta a**
+Enlace a otro destino.
+El destino se especifica con href.
+Este destino puede ser en otra página o en la misma página.
+    - *Misma página*: En el encabezado hay que poner un id y en el href superior añadir el # y el id que hayamos puesto.
+    - *Otra página*: Enlazar con una ruta relativa.
+
+**Tablas en html**
+
+Para mas teoria y ejemplos mirar tablas.html
