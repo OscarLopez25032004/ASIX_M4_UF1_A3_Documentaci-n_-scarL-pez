@@ -1,7 +1,9 @@
 # ASIX_M4_UF1_A3_Documentaci-n_-scarL-pez
 
-Primeramente hemos visto como poner titulos y subitulos (añadiendo o quitando #).
-###### Primer capítulo: MARKDOWN
+###### Primer capítulo: GITHUB
+
+###### Segundo capítulo: MARKDOWN
+Primeramente hemos visto como poner titulos y subtitulos (añadiendo o quitando #).
 
 Además como poner texto en cursiva (poner una 1 _ o 1 *) y en negrita (poner 2 ** o 2 __).
 Texto en *Cursiva*.
@@ -67,7 +69,7 @@ Por último, hemos visto como hacer tablas, haciendo el encabezado y como se ali
 -[X] Opción B
 -[ ] Opción C
 
-##HTML
+###### Tercer capítulo: HTML
 <p>contenido visible</p>
 en la etiqueta de apertura se ponen las clases.
 
@@ -147,3 +149,26 @@ Este destino puede ser en otra página o en la misma página.
 **Tablas en html**
 
 Para mas teoria y ejemplos mirar tablas.html
+
+###### Cuarto capítulo: CSS
+Dos formas de enlazar el css. **Interno**o in-line (en la propia etiqueta) y **Externo** (en otro archivo enlazado en el head).
+
+Ejemplo de css interno:
+```<table border="1" style="color:red;"```
+
+Ejemplo de css externo:
+``` ```
+
+Como se hace una declaración css:
+selector {
+    declaraciones css
+}
+
+Como declarar un id y enlazarlo.
+ 1. En la propia etiqueta, poner id="nombre"
+ 2. En el sitio a enlazar (interno o externo) poner #id que hayamos puesto antes.
+ 3. Poner las declaraciones css a elegir.
+
+Ejemplos de declaraciones css:
+*background-color* = rgb(0, 0, 255): para declarar el color de fondo.
+*color: red* = para dar color a la letra.
