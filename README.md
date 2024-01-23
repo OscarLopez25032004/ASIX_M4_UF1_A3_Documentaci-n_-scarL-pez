@@ -1,8 +1,49 @@
 # ASIX_M4_UF1_A3_Documentaci-n_-scarL-pez
 
 ###### Primer capítulo: GITHUB
+GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador.
+
+Consultar el siguiente link para más documentación sobre GitHub:
+(https://www.xataka.com/basics/que-github-que-que-le-ofrece-a-desarrolladores)
+
+Consultar el siguiente link para mas documentación sobre Git:
+(https://git-scm.com/docs/git/es#:~:text=Git%20es%20un%20sistema%20de,útil%20conjunto%20de%20comandos%20mínimo.)
+
+**Git**
+*¿Que es?*
+Git es un sistema de control de versiones distribuido que permite el seguimiento de cambios en el código fuente durante el desarrollo de software.
+
+**Repositorio**
+Un repositorio es un espacio donde se almacena el código fuente de un proyecto y su historial de versiones o pushes.
+
+**Commit**
+Un commit es un conjunto de cambios confirmados en el repositorio. Cada commit tiene un mensaje que describe los cambios realizados.
+
+**Branch**
+Una rama (branch) es una línea de desarrollo independiente que permite trabajar en características nuevas sin afectar la rama principal.
+
+**Como clonar un Repositorio**
+```
+git clone <URL del repositorio>
+```
+
+**Como añadir y confirmar cambios**
+```
+git add <nombre de archivo>
+git commit -m "Mensaje descriptivo del commit"
+```
+
+**Como subir los cambios**
+```
+git push origin main
+```
 
 ###### Segundo capítulo: MARKDOWN
+Markdown es un lenguaje de marcas que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida.
+
+Consultar el siguiente link para más documentación:
+(https://markdown.es)
+
 Primeramente hemos visto como poner titulos y subtitulos (añadiendo o quitando #).
 
 Además como poner texto en cursiva (poner una 1 _ o 1 *) y en negrita (poner 2 ** o 2 __).
@@ -70,6 +111,12 @@ Por último, hemos visto como hacer tablas, haciendo el encabezado y como se ali
 -[ ] Opción C
 
 ###### Tercer capítulo: HTML
+HTML es el lenguaje que se utiliza para crear una página web. Este lenguaje tiene cierta estructura (head, body...) y además tiene ciertas etiquetas que sirven para introducir elementos
+a la página web.
+
+Consultar el siguiente link para mas documentación sobre html:
+(https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
+
 <p>contenido visible</p>
 en la etiqueta de apertura se ponen las clases.
 
@@ -138,6 +185,10 @@ Seguido de href (Para poner la ruta).
 **Etiqueta img**
 Insertar una imagen.
 Seguido de src (Para poner la ruta).
+*Ejemplo de imagen*
+```
+<img src="ruta o url de la imagen" alt="Descripcion de la imagen">
+```
 
 **Etiqueta a**
 Enlace a otro destino.
@@ -145,24 +196,47 @@ El destino se especifica con href.
 Este destino puede ser en otra página o en la misma página.
     - *Misma página*: En el encabezado hay que poner un id y en el href superior añadir el # y el id que hayamos puesto.
     - *Otra página*: Enlazar con una ruta relativa.
+*Ejemplo de a*
+```
+<a href="Url del enlace">texto a mostrar</a>
+```
 
 **Tablas en html**
-
 Para mas teoria y ejemplos mirar tablas.html
 
+**Como cambiar un icono de la pagina html**
+Añadimos la siguiente linea en el head:
+```
+<link rel="icon" href="ruta del icono">
+```
+Consultar la siguiente pagina web para mas documentación:
+(https://www.delftstack.com/es/howto/html/html-tab-icon/#utilice-y-una-imagen-png-para-agregar-favicon-para-el-sitio-web-en-html)
+
+**Como cambiar el titulo de la pagina web**
+Añadiremos o cambiaremos la siguiente linea en el head:
+```
+<title>Nuevo Título de la Página</title>
+```
+Consultar la siguiente web para mas documentación:
+(https://developer.mozilla.org/es/docs/Web/HTML/Element/title)
+
 ###### Cuarto capítulo: CSS
-Dos formas de enlazar el css. **Interno**o in-line (en la propia etiqueta) y **Externo** (en otro archivo enlazado en el head).
+CSS es el lenguaje que se utiliza para personalizar a tu gusto una página web.
+Existen dos formas de enlazar el css. **Interno** o in-line (en la propia etiqueta) y **Externo** (en otro archivo enlazado en el head).
+
+Consultar el siguiente link para mas documentación:
+(https://www.hostinger.es/tutoriales/tipos-de-estilos-css)
 
 Ejemplo de css interno:
 ```<table border="1" style="color:red;"```
 
 Ejemplo de css externo:
-``` ```
-
-Como se hace una declaración css:
-selector {
-    declaraciones css
+```
+h1 {
+    color:red;
 }
+```
+Haciendo referencia a todos los h1 que hay en el documento html.
 
 Como declarar un id y enlazarlo.
  1. En la propia etiqueta, poner id="nombre"
@@ -172,3 +246,18 @@ Como declarar un id y enlazarlo.
 Ejemplos de declaraciones css:
 *background-color* = rgb(0, 0, 255): para declarar el color de fondo.
 *color: red* = para dar color a la letra.
+
+###### Quinto capítulo: Mediaqueries
+Las mediaqueries se utilizan para que la página web se vea de forma equitativa en cualquier altura y anchura en la que se ponga el navegador.
+
+Ejemplo de media query:
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+Se suelen utilizar para pedidas de mobiles (768px) y otras medidas como: 600px, 768px, 992px o 1200px...
+
+Consulta el siguiente link para más documentación:
+(https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
